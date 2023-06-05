@@ -31,7 +31,7 @@ B = (
     .add_xaxis(weekday)
     .add_yaxis(" Morning 課程數目", [7, 5, 13, 12, 7])
     .add_yaxis(" Afternoon 課程數目",[33, 26, 19, 18, 11] )
-    .set_global_opts(title_opts=opts.TitleOpts(title="通識中心 112-1 課程", subtitle="每週課程 人數分布"))
+    .set_global_opts(title_opts=opts.TitleOpts(title="通識中心 112-1 課程", subtitle="每週課程 開課概況"))
 )
 
 st_pyecharts(P)
