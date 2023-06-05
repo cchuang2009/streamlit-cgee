@@ -29,8 +29,8 @@ weekday=['星期一','星期二','星期三','星期四','星期五']
 B = (
     Bar()
     .add_xaxis(weekday)
-    .add_yaxis(" Morning 課程數目", [7, 5, 13, 12, 7])
-    .add_yaxis(" Afternoon 課程數目",[33, 26, 19, 18, 11] )
+    .add_yaxis(" 上午 課程數目", [7, 5, 13, 12, 7])
+    .add_yaxis(" 下午 課程數目",[33, 26, 19, 18, 11] )
     .set_global_opts(title_opts=opts.TitleOpts(title="通識中心 112-1 課程", subtitle="每週課程 開課概況"))
 )
 
